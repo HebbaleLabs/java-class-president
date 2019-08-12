@@ -36,7 +36,7 @@ public class PresidentTest {
 
     @Test
     public void selectPresident() {
-        Assert.assertEquals("input:No. of students: " + studentsno + "/n Song Length:" + songlength, expected, President.selectPresident(studentsno, songlength));
+        Assert.assertEquals("input:No. of students: " + studentsno + " Song Length:" + songlength, expected, President.selectPresident(studentsno, songlength));
     }
 
 }
